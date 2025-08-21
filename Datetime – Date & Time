@@ -1,0 +1,6 @@
+import datetime
+
+now = datetime.datetime.now()
+print("Current:", now)
+print("Formatted:", now.strftime("%Y-%m-%d %H:%M:%S"))
+print("Next Week:", now + datetime.timedelta(days=7))
